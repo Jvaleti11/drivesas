@@ -1,0 +1,419 @@
+@font-face{
+  font-family: "Avenir-medium.ttf";
+  src: url("./fonts/source-sans-pro/SourceSansPro-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Avenir-book";
+  src: url("../fonts/avenir-book.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Avenir-Next-Regular";
+  src: url("../fonts/avenirnext-regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Avenir-Next-Heavy";
+  src: url("../fonts/avenirnext-heavy.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+    font-feature-settings:"liga" 1, "onum" 1, "dlig" 1, "kern" 1;
+    background-color: #393839;
+}
+
+
+body{
+  font-family: "Avenir-Next-Heavy,Avenir-book", "Avenir-medium", arial, Helvetica, sans-serif;
+  color: #b9b3b3;
+  background-color: #1b1c1a;
+  text-align: left;
+  /*border-style: solid;
+  border-color: red;*/
+  margin: auto;
+  font-size: 100%;
+  height:auto;
+  max-width: 50rem;
+  padding-left:1rem;
+  padding-right: 2rem;
+}
+
+section{
+  max-width: 25rem;
+  min-width: 19.9rem;
+  max-height: 36rem;
+  min-height: 31rem;
+  /*border-style: solid;
+  border-color: red;*/
+  background-color: rgba(#000000, 0.95);
+  color: rgba(#000000, 0.95);
+  position:inherit;
+  margin:auto;
+/*  overflow: auto;*/
+
+
+}
+
+section img{
+  /*display:;*/
+
+}
+
+.header-area{
+  background-color: orange;
+}
+/*#road-length{*/
+
+/*}*/
+#about{
+  min-height:auto;
+}
+.gorge img{
+	z-index:-1
+	
+}
+#gorge2{
+  /*background-color: blue;*/
+  background-image: url("../images/gorge/gorge_rd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.back{
+  background-color: #231f20, 0.95;
+}
+
+#cork_screew{
+  /*background-color: blue;*/
+  background-image: url("../images/cork_screew/mt_barker_rd.JPG");
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: inline-block;
+
+}
+
+
+#cork_screew h3{
+	margin-left:1rem;
+	margin-top: 1rem;
+}
+
+#mt_barker{
+  /*background-color: blue;*/
+  background-image: url("../images/mt_barker/mtbold.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+
+}
+
+#mt_bold{
+  /*background-color: blue;*/
+  background-image: url("../images/mt_bold/mt_barker_rd_2.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+  display: inline-block;
+
+}
+/*display: inline-block;
+display: inline-grid;*/
+
+#rating li{
+  margin: 0;
+  display: list-item;
+}
+
+.body{
+  margin: auto;
+  max-width: 40rem;
+}
+
+header{
+  margin: auto;
+  max-width: 40rem;
+  padding-left:1rem;
+  padding-right: 2rem;
+}
+
+main{
+
+}
+
+.palette{
+  height: 6rem;
+  width:  6rem;
+  display: inline-block;
+}
+
+.primary{
+  background-color: red;
+}
+
+.secondary{
+  background-color: green;
+}
+
+.tertiary{
+  background-color: orange;
+}
+
+header>h1{
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+}
+
+a{
+ color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: #EFAF1E;
+}
+
+h1{
+  font-weight: bolder;
+  font-family: "Avenir-Next-Heavy",sans-serif ;
+  color: #efaf1e;
+  font-weight: bolder;
+  font-size: 4rem;
+  line-height: 4rem;
+  }
+
+h2{
+  color: white;
+  }
+
+
+h4{
+  color: white;
+}
+
+h5{
+
+  color: white;
+  font-family: "Avenir-medium", arial, Helvetica, sans-serif;
+  /*font-size: 115%;*/
+  }
+
+h6{
+  font-family: "Avenir-medium", arial, helvetica, sans-serif;
+  color: white;
+  font-family: arial, Helvetica, sans-serif;
+  /*font-size: 110%;*/
+  }
+
+  p{
+    color: white;
+    font-family: "Avenir-book", arial, Helvetica, sans-serif;
+    display: inline-block;
+  }
+
+img{
+    width: 100%;
+    /*border-color: red;*/
+    /*border-style: solid;*/
+}
+
+nav{
+  margin: auto;
+  padding:0.5rem;
+  /*border: solid;*/
+  width:100%;
+  max-height: 2rem;
+  background-color: white;
+  font-family:  "Avenir-medium", arial, helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: white;
+  width: 100%;
+  /*border-color: red;*/
+  overflow: auto;
+  /*position: fixed;*/
+  /*top: 0;*/
+
+
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+nav li {
+    display: inline;
+    float: left;
+    margin-left: 1rem;
+    color: black;
+    margin-top: 0;
+
+}
+
+nav a {
+    display: block;
+    width: 3rem;
+    background-color: white;
+    text-decoration: none;
+
+
+}
+
+
+iframe {
+    border: none;
+	max-width:93%;
+
+}
+
+.showcase{
+  margin: auto;
+  border: solid;
+  width: 100%;
+  max-height: 19rem;
+  image-orientation: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.showcase img{
+
+}
+
+.showcase h2{
+  float: center;
+  background-color: rgba(#000000, 0.65);
+  z-index: +1;
+}
+
+
+.front{
+  margin: auto;
+  
+  
+}
+
+.back{
+  margin: auto;
+  background-color:#2B2728;
+}
+
+
+.card{
+	
+	max-width : 22.857rem;
+	max-height : 35.249rem;
+	
+
+}
+
+.name{
+	background-image : url(../images/image1.png);
+	background-repeat : no-repeat;
+	background-size:cover;
+	position : relative ;
+	margin: 1rem auto;
+	/*border: 1px solid #0b0b0b;*/
+	width : 11.143rem;
+	height : 3.5rem;
+	z-index:+1;
+	padding-top:.01rem
+}
+
+.name h3{
+}
+.lenght{:
+	background-color:#000000;
+	opacity: 0.85;
+	position : relative ;
+	margin: 19.7rem auto auto;
+	width : 3.429rem;
+	height : 2.429rem;
+	z-index: +1
+}
+
+.lenght p{
+	margin: 0.3rem 0.3rem;
+	font-size:1.39rem;
+}
+
+.lower-display{
+	background-color:#000000;
+	backface-visibility:hidden;
+	opacity: 0.85;
+	position:relative;
+	margin: 0rem auto;
+	overflow:auto;
+	z-index: +1;
+}
+
+.lower-display ul{
+    list-style: none;
+    padding: 0;
+    margin: 0rem;
+}
+
+.lower-display li{
+	margin:0 1.2rem;
+	display:inline-block;
+}
+
+.back .lower-display{
+	background-color:inherit;
+}
+	
+	h3 {
+	color: #efaf1e;
+	margin: .8rem 1.8rem ;
+	font-family: "Avenir-Next-Heavy",'source-serif-pro', serif;
+	font-weight:inherit;
+	font-size: 1.571rem;
+}
+.pannel{
+	margin:0rem;
+	display:inline-block;
+}
+
+.overlay{
+	background-color:#000000, 0.85;
+	height:100%;
+	width:100%;
+}
+
+
+.terrian{
+	background-color:#FAF4F4;
+	position : relative ;
+	margin: 1rem auto auto;
+	width : 100%;
+	height : 3.429rem;
+}
+
+.map{
+	position : relative ;
+	margin: 1.62rem auto auto;
+	
+	width : 95%;
+	height : 16rem;
+	
+}
+article{
+	margin:auto;	
+}
+
+article section{
+	margin:auto auto	;
+}
